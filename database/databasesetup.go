@@ -17,6 +17,7 @@ func DBSet() *mongo.Client {
 
 	if err != nil {
 		log.Fatal(err)
+		return nil
 	}
 
 	err = client.Ping(context.TODO(), nil)

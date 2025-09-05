@@ -2,6 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/monikalilhare01/ecommerce/controllers"
 )
 
 func userRoutes(incomingRoutes *gin.Engine) {
